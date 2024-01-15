@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nutrition Macro Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Nutrition Macro Calculator</h1>
+    <div>
+        <input type="text" id="productName" placeholder="Enter product name...">
+        <input type="number" id="productQuantity" placeholder="Quantity in grams">
+        <button id="calculateButton">Calculate</button>
+        <button id="addToDayButton">Add to Day</button>
+    </div>
+    <div id="result"></div>
+    <h2>Daily Summary</h2>
+    <table id="dailySummary">
+        <tr>
+            <th>Product</th>
+            <th>Quantity (g)</th>
+            <th>Calories</th>
+            <th>Protein (g)</th>
+            <th>Fat (g)</th>
+            <th>Carbohydrates (g)</th>
+        </tr>
+
+    </table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
